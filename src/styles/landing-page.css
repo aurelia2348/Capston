@@ -15,6 +15,7 @@ body {
   background-color: rgb(255, 255, 255, 0.3);
   padding: 10px 30px;
   margin: 40px;
+  height: 70px;
   border-radius: 20px;
   border: 1 px solid rgba(255, 255, 255, 0.5);
   display: flex;
@@ -33,6 +34,10 @@ body {
 }
 
 .logo {
+  height: 150px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
 }
 
 .nav-links {
@@ -192,16 +197,16 @@ body {
 
 .about-text h3 {
   color: #8bc34a;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem 0.5rem;
 }
 
 .about-text h2 {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+  margin-: 1rem 00.5rem;
 }
 
 .about-text p {
-  margin-bottom: 1rem;
+  margin: 1rem 0.5rem;
   line-height: 1.5;
 }
 
